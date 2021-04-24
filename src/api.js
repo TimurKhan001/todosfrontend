@@ -1,4 +1,4 @@
-const APIURL = 'https://todolist-srvr-tk.herokuapp.com//api/todos/';
+const APIURL = 'https://todolist-srvr-tk.herokuapp.com/api/todos/';
 
 export async function getTodos() {
     return window.fetch(APIURL)
